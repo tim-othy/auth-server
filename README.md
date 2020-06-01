@@ -7,6 +7,6 @@ Spring-boot auth-server
 `./gradlew bootRun`
 
 ### Docker
-`./gradlew build`
-`docker build --build-arg JAR_FILE="build/libs/*.jar" -t auth-client .`
-`docker run -p 8081:8081 auth-server"
+1. `./gradlew build`
+2. `docker build --build-arg JAR_FILE="build/libs/*.jar" -t auth-server .`
+3. `docker run -p 8081:8081 auth-server`
